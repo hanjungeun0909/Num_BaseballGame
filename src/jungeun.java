@@ -83,7 +83,16 @@ public class jungeun {
                     }
                 }
             }
-        System.out.println(Strike+"S"+Ball+"B");
+        if(Strike== 3){
+            System.out.println(Strike+"S");
+
+        } else if (Ball == 3) {
+            System.out.println(Ball+"B");
+
+        } else{
+            System.out.println(Ball+"B"+Strike+"S");
+        }
+        return Strike;
         return Strike;
     }
 }
